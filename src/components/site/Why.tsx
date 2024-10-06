@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { IoIosMail } from "react-icons/io";
 import { MdArrowRightAlt } from "react-icons/md";
