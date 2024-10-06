@@ -12,11 +12,11 @@ function Why() {
           className="relative object-cover h-[1200px] mt-[-20px] w-full "
         />
         <div className="z-10 absolute top-0 py-8 px-4">
-          <h2 className="text-4xl font-bold">
-            Why Choose PathwayCare Solutions?
+          <h2 className="text-3xl font-bold">
+            Why Choose Prime Care Solutions?
           </h2>
           <div className="relative mt-14 ">
-            <div className=" absolute  top-[-24px] left-6 bg-white w-[90%] pt-5 rounded-xl font-bold text-xl ">
+            <div className=" absolute  top-[-24px] left-4 bg-white w-[90%] pt-5 rounded-xl font-bold text-xl ">
               <h2 className="border-b px-5 border-gray-200 py-6 cursor-pointer">
                 FlexChange Support
               </h2>
@@ -35,14 +35,14 @@ function Why() {
               <h2 className="px-5  py-6 cursor-pointer">
                 Multilingual Support
               </h2>
-              <div className="flex items-center cursor-pointer gap-4 py-6 px-5 bg-orange-500 rounded-xl text-gray-100 ">
+              <div className="flex items-center cursor-pointer gap-4 py-4 px-5 bg-orange-500 rounded-xl text-gray-100 ">
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
                   <IoIosMail className="text-orange-500 text-2xl" />
                 </span>
                 <h2>Contact Us</h2>
               </div>
             </div>
-            <div className="absolute mt-[600px] py-5 px-5 text-white">
+            <div className="absolute mt-[550px] py-5 px-5 text-white">
               <h2 className="text-4xl font-bold pb-5">
                 Seasoned Professionals
               </h2>

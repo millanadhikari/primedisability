@@ -88,7 +88,7 @@ function Footer() {
                   <MdEmail />
                 </div>
                 <div>
-                  <h2 className="text-bold text-[1.1rem]">Email Us</h2>
+                  <h2 className="text-bold text-[1rem]">Email Us</h2>
                   <p>info@primedisability.com.au</p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ function Footer() {
                   <FaPhoneAlt />
                 </div>
                 <div>
-                  <h2 className="text-bold text-[1.1rem]">Phone</h2>
+                  <h2 className="text-bold text-[1rem]">Phone</h2>
                   <p className="cursor-pointer hover:text-orange-400">
                     02 8065 4646
                   </p>
@@ -107,17 +107,17 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex gap-10 justify-center pt-16 pb-5">
-          <div className="flex gap-3 cursor-pointer items-center">
+        <div className="flex gap-8 justify-center pt-16 pb-5 text-sm">
+          <div className="flex gap-1 cursor-pointer items-center">
             <SiTicktick className="text-orange-400" />
             <p>Privacy Policy</p>
           </div>
-          <div className="flex gap-3 cursor-pointer items-center">
+          <div className="flex gap-1 cursor-pointer items-center">
             <SiTicktick className="text-orange-400" />
             <p>Terms & Conditions</p>
           </div>
         </div>
-        <p className="text-center">2024 (c) PrimeDisability Solutions</p>
+        <p className="text-center text-sm">2024 (c) PrimeDisability Solutions</p>
       </div>
     </div>
   );
