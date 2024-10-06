@@ -2,7 +2,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 // import DisplayTab from "@/components/site/tabs/DisplayTab";
 import Why from "@/components/site/Why";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (
