@@ -114,8 +114,8 @@ function Why() {
                   <p className="pb-5 lg:text-[1.1rem] lg:w-[430px]">
                     Beyond Listening, Truly Attentive: At PathwayCare Solutions,
                     your priorities take center stage. Our services are not just
-                    personalised; they&aspos;re customised to align seamlessly with
-                    your individual goals and needs. Your well-being is our
+                    personalised; they&aspos;re customised to align seamlessly
+                    with your individual goals and needs. Your well-being is our
                     ultimate priority.
                   </p>
                   <div className="flex gap-3 items-center text-white cursor-pointer hover:text-orange-400 border border-orange-500 py-2 px-5 w-[180px] justify-center">
@@ -198,7 +198,7 @@ function Why() {
                 </div>
               )}
             </div>
-            <div className=" z-[-1] h-[900px] lg:h-[600px] lg:w-[850px] lg:right-[-160px] absolute top-0 w-full rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-5 border border-orange-300 "></div>
+            <div className=" z-[-1] h-[950px] lg:h-[600px] lg:w-[850px] lg:right-[-160px] absolute top-0 w-full rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-5 border border-orange-300 "></div>
           </div>
         </div>
       </span>

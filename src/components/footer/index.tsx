@@ -17,7 +17,7 @@ function Footer() {
                 <p className="text-gray-300 mt-[-5px]">Agency</p>
               </div>
             </div>
-            <p className="mt-6 text-[1.1rem] ">
+            <p className="mt-6 text-[0.9rem] ">
               PrimeDisability Care provides a comprehensive range of
               personalised services.
             </p>
