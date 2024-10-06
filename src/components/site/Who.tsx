@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 function Who() {
   return (
     <div className="my-10  ">
@@ -22,8 +21,8 @@ function Who() {
           them wholeheartedly. We create welcoming environments and treat
           everyone with dignity and respect. We go beyond being just support
           workers; we are companions who help navigate daily challenges,
-          enabling individuals to gain their independence. If you’re seeking
-          compassionate staff for yourself or a loved one, we’re here to fulfill
+          enabling individuals to gain their independence. If youre seeking
+          compassionate staff for yourself or a loved one, were here to fulfill
           your needs.
         </p>
       </div>
