@@ -114,7 +114,7 @@ function Why() {
                   <p className="pb-5 lg:text-[1.1rem] lg:w-[430px]">
                     Beyond Listening, Truly Attentive: At PathwayCare Solutions,
                     your priorities take center stage. Our services are not just
-                    personalised; they're customised to align seamlessly with
+                    personalised; they&aspos;re customised to align seamlessly with
                     your individual goals and needs. Your well-being is our
                     ultimate priority.
                   </p>
