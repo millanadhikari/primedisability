@@ -13,7 +13,7 @@ import {
 function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="sticky top-0 right-0 left-0 p-3 flex items-center justify-between z-100 border-b-2 bg-white ">
+    <div className="w-100 z-[999] sticky top-0 right-0 left-0 p-3 flex items-center justify-between z-100 border-b-2 bg-white ">
       <div className="flex gap-2">
         <Image alt="logo" src="/assets/prime.JPG" height={20} width={40} />
         <div className="font-bold text-orange-600 ">
