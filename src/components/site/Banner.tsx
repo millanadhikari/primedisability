@@ -8,7 +8,7 @@ function Banner() {
         src="/assets/hand.jpg"
         alt="banner"
         layout="fill"
-        className="object-cover mt-[-80px]"
+        className="object-cover mt-[-60px]"
       />
       <div className="absolute inset-0 bg-black bg-opacity-80 mt-[-80px] "></div>
       <div className="relative">

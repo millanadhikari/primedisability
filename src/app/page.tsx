@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Banner from "@/components/site/Banner";
+import NeedHelp from "@/components/site/NeedHelp";
 import Services from "@/components/site/Services";
 import Who from "@/components/site/Who";
 // import DisplayTab from "@/components/site/tabs/DisplayTab";
@@ -15,6 +16,7 @@ export default function Home() {
       <Banner />
       <Who />
       <Services />
+      <NeedHelp/>
       <Why />
       {/* <DisplayTab /> */}
       <Footer />
