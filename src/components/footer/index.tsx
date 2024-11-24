@@ -11,10 +11,10 @@ function Footer() {
         <div className="md:grid grid-cols-2 justify-center lg:grid-cols-3 xl:grid-cols-4  ">
           <div className=" mr-10">
             <div className="flex gap-3 ">
-              <Image alt="logo" src="/assets/prime.JPG" height={2} width={22} />
-              <div className="font-bold text-white ">
-                <p>PRIME DISABILITY</p>
-                <p className="text-gray-300 mt-[-5px]">Agency</p>
+            <Image alt="logo" src="/assets/prime_logo.png" height={20} width={50} />
+            <div className="font-bold text-orange-500 ">
+                <p>PRIME CHOICE</p>
+                <p className="text-gray-500 mt-[-5px]">CARE</p>
               </div>
             </div>
             <p className="mt-6 text-[0.9rem] ">

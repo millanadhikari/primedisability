@@ -15,10 +15,10 @@ function Header() {
   return (
     <div className="w-100 z-[999] sticky top-0 right-0 left-0 p-3 flex items-center justify-between z-100 border-b-2 bg-white ">
       <div className="flex gap-2">
-        <Image alt="logo" src="/assets/prime.JPG" height={20} width={40} />
+        <Image alt="logo" src="/assets/prime_logo.png" height={20} width={52} />
         <div className="font-bold text-orange-600 ">
-          <p>PRIME DISABILITY</p>
-          <p className="text-gray-400 mt-[-5px]">Agency</p>
+          <p>PRIME CHOICE</p>
+          <p className="text-gray-400 mt-[-5px]">CARE</p>
         </div>
       </div>
       <div
