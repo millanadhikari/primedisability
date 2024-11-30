@@ -14,7 +14,7 @@ function Services() {
         <h2 className="text-3xl md:text-3xl font-bold">Services</h2>
         <div className="lg:flex gap-6">
           <p className="mt-4 text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] max-w-[600px]">
-            Prime disability Agency is committed to delivering outstanding
+            PrimeChoice Care is committed to delivering outstanding
             services through Mobile Allied Health, Disability Support & NDIS
             assistance, Home Care, and Agency Staffing, creating a route to
             improved well-being and autonomy for our clients.

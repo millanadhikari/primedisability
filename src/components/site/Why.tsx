@@ -15,7 +15,7 @@ function Why() {
         />
         <div className="z-10 absolute top-0 py-8 px-4">
           <h2 className="text-3xl font-bold">
-            Why Choose Prime Care Solutions?
+            Why Choose PrimeChoice Care ?
           </h2>
           <div className="relative mt-14 md:flex">
             <div className=" absolute top-[-24px]  ml-[5%] lg:left-[-180px] lg:w-[280px] bg-white w-[90%] pt-5 rounded-xl font-bold text-xl ">

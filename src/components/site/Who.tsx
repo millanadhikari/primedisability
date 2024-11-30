@@ -35,7 +35,7 @@ function Who() {
           <div>
             <h2 className="text-3xl font-bold">About Us</h2>
             <p className="mt-3  text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] pr-10">
-              Prime Disability Agency is a NDIS registered (National Disability
+              Prime Choice Care is a NDIS registered (National Disability
               Insurance Scheme) Provider operating all over greater Sydney
               region. We are specialised in Disability Support, Supported
               Accommodation such as SIL, STA and MTA, Community Participation,
@@ -52,7 +52,7 @@ function Who() {
               <div className="border-[3px] border-orange-400 w-14 my-2"></div>
 
               <p className=" text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] mt-4 max-w-[400px]">
-                PathwayCare Solutions provides personalised services for
+                PrimeChoice Care provides personalised services for
                 independence and goal achievement, covering allied health,
                 disability support, NDIS services, home care, and labour hire.
               </p>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -6,47 +7,68 @@ import { SiTicktick } from "react-icons/si";
 
 function Footer() {
   return (
-    <div className=" bg-gray-50 w-full">
-      <div className="container py-10 w-full xl:w-[1500px] mx-auto  px-10 text-gray-700  ">
+    <div className=" bg-[#e5e6e1] w-full">
+      <div className="container py-10 w-full xl:w-[1500px] mx-auto  px-5 text-gray-700  ">
         <div className="md:grid grid-cols-2 justify-center lg:grid-cols-3 xl:grid-cols-4  ">
           <div className=" mr-10">
-            <div className="flex gap-3 ">
-            <Image alt="logo" src="/assets/prime_logo.png" height={20} width={50} />
-            <div className="font-bold text-orange-500 ">
-                <p>PRIME CHOICE</p>
-                <p className="text-gray-500 mt-[-5px]">CARE</p>
+            <Link href="/">
+              <div className="flex gap-3 ">
+                <Image
+                  alt="logo"
+                  src="/assets/logo_2.png"
+                  height={20}
+                  width={56}
+                />
+                <div className="font-bold text-orange-500 ">
+                  <p className="text-lg">PRIME CHOICE</p>
+                  <p className="text-gray-500 mt-[-5px]">CARE</p>
+                </div>
               </div>
-            </div>
-            <p className="mt-6 text-[0.9rem] ">
-              PrimeDisability Care provides a comprehensive range of
-              personalised services.
+            </Link>
+            <p className="mt-4 text-[1rem] ">
+              PrimeChoice Care provides a comprehensive range of personalised
+              services.
             </p>
 
-            <div className="flex items-center pt-10 gap-5">
+            <div className="flex items-center pt-8 gap-4">
               <Image
                 alt="care"
                 src="/assets/care.jpg"
-                width={70}
+                width={60}
                 height={70}
-                className="rounded-full aspect-square object-cover "
+                className="rounded-full aspect-square object-cover"
               />
-              <div>
-                <h2 className="text-orange-400 text-lg font-bold">
-                  NEED HELP?
-                </h2>
-                <p className="font-semibold mt-1 cursor-pointer hover:text-orange-400 text-md">
-                  Contact Us{" "}
-                </p>
-              </div>
+              <Link href="/contact">
+                <div>
+                  <h2 className="text-orange-500 text-lg font-bold">
+                    NEED HELP ?
+                  </h2>
+                  <p className=" mt-1 cursor-pointer hover:text-orange-400 text-md">
+                    Contact Us{" "}
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="mt-6 max-w-[200px] ">
             <h2 className="text-lg font-bold">Company</h2>
             <div className="border-[3px] border-orange-400 w-14 my-2"></div>
             <ul className="mt-5 flex flex-col gap-2">
-              <li className="cursor-pointer hover:text-orange-400">Home</li>
-              <li className="cursor-pointer hover:text-orange-400">Acout Us</li>
-              <li className="cursor-pointer hover:text-orange-400">Contact</li>
+              <Link href="/">
+                {" "}
+                <li className="cursor-pointer hover:text-orange-400">Home</li>
+              </Link>
+              <Link href="/about-us">
+                {" "}
+                <li className="cursor-pointer hover:text-orange-400">
+                  About Us
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li className="cursor-pointer hover:text-orange-400">
+                  Contact
+                </li>{" "}
+              </Link>
               <li className="cursor-pointer hover:text-orange-400">FAQ</li>
               <li className="cursor-pointer hover:text-orange-400">
                 Get Started
@@ -58,12 +80,18 @@ function Footer() {
             <h2 className="text-lg font-bold">Disability & NDIS</h2>
             <div className="border-[3px] border-orange-400 w-14 my-2"></div>
             <ul className="mt-5 flex flex-col gap-2">
-              <li className="cursor-pointer hover:text-orange-400">
-                In-Home Support
-              </li>
-              <li className="cursor-pointer hover:text-orange-400">
-                Community Support
-              </li>
+              <Link href="/home-support">
+                {" "}
+                <li className="cursor-pointer hover:text-orange-400">
+                  In-Home Support
+                </li>
+              </Link>
+              <Link href="/community-support">
+                {" "}
+                <li className="cursor-pointer hover:text-orange-400">
+                  Community Support
+                </li>
+              </Link>
               <li className="cursor-pointer hover:text-orange-400">
                 Care Assistance
               </li>
@@ -89,7 +117,7 @@ function Footer() {
                 </div>
                 <div>
                   <h2 className="text-bold text-[1rem]">Email Us</h2>
-                  <p>info@primedisability.com.au</p>
+                  <p>info@primechoicecare.com.au</p>
                 </div>
               </div>
 
@@ -117,7 +145,9 @@ function Footer() {
             <p>Terms & Conditions</p>
           </div>
         </div>
-        <p className="text-center text-sm">2024 (c) PrimeDisability Solutions</p>
+        <div className="flex justify-center items-center  gap-1 text-center text-sm">
+          2024 <span className="text-xl">© </span> PrimeChoice Care
+        </div>
       </div>
     </div>
   );
