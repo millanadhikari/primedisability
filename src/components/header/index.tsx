@@ -97,18 +97,18 @@ const MenuAccordion = () => {
             <Link href="community-support">
               <li className="hover:text-orange-500">NDIS Community Support</li>
             </Link>
-            <Link href="">
+            <Link href="/personal-care">
               <li className="hover:text-orange-500">
                 NDIS Personal Care Assistance
               </li>
             </Link>
 
-            <Link href="">
+            <Link href="/domestic-assistance">
               <li className="hover:text-orange-500">
                 NDIS Domestic Assistance
               </li>
             </Link>
-            <Link href="">
+            {/* <Link href="">
               <li className="hover:text-orange-500">NDIS Daily Care</li>
             </Link>
             <Link href="">
@@ -116,7 +116,7 @@ const MenuAccordion = () => {
             </Link>
             <Link href="">
               <li className="hover:text-orange-500">NDIS Hospital Support</li>
-            </Link>
+            </Link> */}
           </ul>
         </AccordionContent>
       </AccordionItem>
