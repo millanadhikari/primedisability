@@ -1,6 +1,5 @@
 import React from "react";
 import { FaTasks } from "react-icons/fa";
-import { RiUserCommunityLine } from "react-icons/ri";
 import {
   MdEmojiTransportation,
   MdOutlineDryCleaning,
