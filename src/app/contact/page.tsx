@@ -137,7 +137,7 @@ function Home() {
                         Contact Details with 24 x 7 Support
                       </h2>
                       <p>Phone:</p>
-                      <p>1300 202 123</p>
+                      <p>+61 451103939</p>
                     </div>
                   </div>
 
@@ -267,7 +267,7 @@ function Home() {
                         />
                       </div>
 
-                      <div>
+                      <div className="mt-3">
                         <Label>YOUR MESSAGE*</Label>
                         <FormField
                           control={form.control}
@@ -286,7 +286,7 @@ function Home() {
                         />
                       </div>
                       <Button
-                        className="bg-orange-500 hover:bg-orange-400 text-white text-[1rem] "
+                        className="bg-orange-500 hover:bg-orange-400 text-white text-[1rem] mt-5 "
                         type="submit"
                       >
                         SUBMIT

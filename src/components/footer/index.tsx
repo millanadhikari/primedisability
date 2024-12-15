@@ -128,7 +128,7 @@ function Footer() {
                 <div>
                   <h2 className="text-bold text-[1rem]">Phone</h2>
                   <p className="cursor-pointer hover:text-orange-400">
-                    02 8065 4646
+                   +61 451103939
                   </p>
                 </div>
               </div>
