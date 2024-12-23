@@ -33,6 +33,20 @@ function Home() {
           </p>
         </Link>
       </div>
+      <div className="absolute bottom-7 text-gray-600 left-1/2  transform -translate-x-1/2 flex justify-center gap-4 text-sm items-center text-center">
+        <p className="text-nowrap hover:underline hover:text-orange-800 cursor-pointer">
+          Terms of use
+        </p>
+        <p className="text-nowrap hover:underline hover:text-orange-800 cursor-pointer">
+          Privacy
+        </p>
+        <p className="text-nowrap hover:underline hover:text-orange-800 cursor-pointer">
+          Help Center
+        </p>
+        <p className="text-nowrap hover:underline hover:text-orange-800 cursor-pointer">
+          Sign up
+        </p>
+      </div>
     </div>
   );
 }
