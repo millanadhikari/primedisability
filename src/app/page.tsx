@@ -18,7 +18,7 @@ export default function Home() {
       <Who />
       <Services />
       <NeedHelp />
-      <Participation/>
+      <Participation />
       <Why />
       {/* <DisplayTab /> */}
       <Footer />
