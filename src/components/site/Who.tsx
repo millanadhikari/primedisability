@@ -3,12 +3,12 @@ import { RiHandHeartLine } from "react-icons/ri";
 import { TbHeartHandshake } from "react-icons/tb";
 function Who() {
   return (
-    <div className="my-10   ">
+    <div className="my-10 text-[#3a474f]   ">
       <div className="container md:flex gap-4 max-w-[1200px] mx-auto">
         <img
           src="/assets/who.jpg"
           alt="disability care"
-          className="  h-auto w-auto max-w-[320px] md:max-w-[500px] object-contain rounded-xl mx-auto "
+          className="  h-auto w-auto max-w-[350px] md:max-w-[500px] object-contain rounded-xl mx-auto "
         />
         <div className="px-5 py-6 mx-auto  max-w-[700px]  ">
           <h2 className="text-3xl md:text-3xl font-bold">

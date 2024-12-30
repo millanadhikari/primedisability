@@ -12,6 +12,8 @@ import {
 import Link from "next/link";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { twMerge } from "tailwind-merge";
+import { AnimatePresence, motion } from "framer-motion";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -35,10 +37,61 @@ function Header() {
         onClick={() => setOpen(!open)}
         className="text-3xl cursor-pointer lg:hidden text-orange-400"
       >
-        {!open ? <RxHamburgerMenu /> : <IoCloseSharp />}
+        {/* {!open ? <RxHamburgerMenu /> : <IoCloseSharp />} */}
+        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-menu md:hidden cursor-pointer"
+                                onClick={() => setOpen(!open)}
+                            >
+                                <line
+                                    x1="3"
+                                    y1="6"
+                                    x2="21"
+                                    y2="6"
+                                    className={twMerge(
+                                        "origin-left transition",
+                                        open && "rotate-45 -translate-y-1"
+                                    )}
+                                ></line>
+                                <line
+                                    x1="3"
+                                    y1="12"
+                                    x2="21"
+                                    y2="12"
+                                    className={twMerge(
+                                        "transition",
+                                        open && "opacity-0"
+                                    )}
+                                ></line>
+                                <line
+                                    x1="3"
+                                    y1="18"
+                                    x2="21"
+                                    y2="18"
+                                    className={twMerge(
+                                        "origin-left transition",
+                                        open && "-rotate-45 translate-y-1"
+                                    )}
+                                ></line>
+                            </svg>
+
       </div>
+      <AnimatePresence>
       {open && (
-        <div className="fixed top-[70px] left-0 bg-[#e5e6e1] w-full h-full px-4 py-4 lg:hidden">
+        <motion.div
+          initial={{height:0}}
+          animate={{height:"auto"}}
+          exit={{height:0}}
+          
+          className="fixed inset-0 top-[70px] left-0 bg-[#e5e6e1] w-full h-full px-4 py-4 overflow-hidden lg:hidden">
           <h2 className="text-bold">Menu</h2>
           <ul className="text-gray-600">
             <li className="border-t-2 cursor-pointer">
@@ -74,8 +127,9 @@ function Header() {
               <TiSocialLinkedin />
             </span>
           </div>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
     </div>
   );
 }

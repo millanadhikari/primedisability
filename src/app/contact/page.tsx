@@ -101,7 +101,7 @@ function Home() {
         </div>
       </div>
       <div className="mt-10">
-        <div className="container md:flex gap-4 max-w-[1200px] mx-auto">
+        <div className="container md:flex gap-4 max-w-[1200px] mx-auto text-[#3a474f]">
           <div className="px-5 py-6 mx-auto  max-w-[900px]  ">
             <h2 className="text-3xl md:text-3xl font-bold">
               Get in Touch{" "}
@@ -119,12 +119,12 @@ function Home() {
                     <span className="bg-orange-500 rounded-full text-white p-2 text-xl">
                       <MdEmail />
                     </span>
-                    <div>
+                    <div >
                       <h2 className="font-semibold text-orange-500">
                         General Enquiries
                       </h2>
-                      <p>Email:</p>
-                      <p>info@primechoicecare.com.au</p>
+                      <p className="text-[1rem]">Email:</p>
+                      <p className="text-[1rem]">info@primechoicecare.com.au</p>
                     </div>
                   </div>
 
@@ -136,8 +136,8 @@ function Home() {
                       <h2 className="font-semibold text-orange-500">
                         Contact Details with 24 x 7 Support
                       </h2>
-                      <p>Phone:</p>
-                      <p>+61 451103939</p>
+                      <p className="text-[1rem]">Phone:</p>
+                      <p className="text-[1rem]">+61 451103939</p>
                     </div>
                   </div>
 
@@ -149,7 +149,7 @@ function Home() {
                       <h2 className="font-semibold text-orange-500">
                         Operation Hours
                       </h2>
-                      <p>24 hours</p>
+                      <p className="text-[1rem]">24 hours</p>
                     </div>
                   </div>
                   <div className="flex justify-center my-12 gap-3">

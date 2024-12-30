@@ -7,8 +7,8 @@ import { SiTicktick } from "react-icons/si";
 
 function Footer() {
   return (
-    <div className=" bg-[#e5e6e1] w-full">
-      <div className="container py-10 w-full xl:w-[1500px] mx-auto  px-5 text-gray-700  ">
+    <div className=" bg-[#3a474f] w-full">
+      <div className="container py-10 w-full xl:w-[1500px] mx-auto  px-5 text-gray-200  ">
         <div className="md:grid grid-cols-2 justify-center lg:grid-cols-3 xl:grid-cols-4  ">
           <div className=" mr-10">
             <Link href="/">
@@ -20,12 +20,12 @@ function Footer() {
                   width={56}
                 />
                 <div className="font-bold text-orange-500 ">
-                  <p className="text-lg">PRIME CHOICE</p>
-                  <p className="text-gray-500 mt-[-5px]">CARE</p>
+                  <p className="text-lg text-white">PRIME CHOICE</p>
+                  <p className="text-gray-300 text-sm mt-[-4px]">CARE</p>
                 </div>
               </div>
             </Link>
-            <p className="mt-4 text-[1rem] ">
+            <p className="mt-4 text-[0.9rem] ">
               PrimeChoice Care provides a comprehensive range of personalised
               services.
             </p>

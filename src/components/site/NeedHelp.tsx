@@ -8,7 +8,7 @@ function NeedHelp() {
     <div className="py-10 pb-14 px-6 text-center bg-[#3a474f] text-white">
       <h1 className="text-3xl font-bold">Need Some Help?</h1>
       <p className="py-4">
-        Whether you`&apos;`re stuck or just want some tips on where to start, hit up
+        Whether you&apos;re stuck or just want some tips on where to start, hit up
         our experts anytime.
       </p>
       <Link href="/contact">

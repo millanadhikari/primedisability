@@ -6,7 +6,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 function Why() {
   const [title, setTitle] = useState("flex");
   return (
-    <div className="bg-red relative z-12 w-full">
+    <div className="bg-red relative z-12 w-full text-[#3a474f]">
       <span className="flex items-center justify-center">
         <img
           alt="community"
