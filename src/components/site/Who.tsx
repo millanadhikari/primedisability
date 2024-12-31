@@ -3,17 +3,19 @@ import { RiHandHeartLine } from "react-icons/ri";
 import { TbHeartHandshake } from "react-icons/tb";
 function Who() {
   return (
-    <div className="my-10 text-[#3a474f]   ">
+    <div className="py-10 text-[#3a474f] bg-gray-100    ">
       <div className="container md:flex gap-4 max-w-[1200px] mx-auto">
         <img
           src="/assets/who.jpg"
           alt="disability care"
           className="  h-auto w-auto max-w-[350px] md:max-w-[500px] object-contain rounded-xl mx-auto "
         />
-        <div className="px-5 py-6 mx-auto  max-w-[700px]  ">
-          <h2 className="text-3xl md:text-3xl font-bold">
-            Your Trusted NDIS Provider in Sydney
-          </h2>
+        <div className=" px-5 py-6 mx-auto  max-w-[700px]  ">
+          <div className="flex justify-left text-3xl md:text-3xl font-bold">
+            <h2 className="">
+              Your Trusted NDIS Provider in Sydney
+            </h2>
+          </div>
           <p className="mt-4 text-[1rem] sm:text-[1.1rem] md:text-[1.2rem]">
             Your search for a professional NDIS provider in Sydney ends here.
             With years of experience in disability care and support, we are
@@ -30,10 +32,10 @@ function Who() {
           </p>
         </div>
       </div>
-      <div className="my-6 px-4 lg:flex max-w-[1200px] mx-auto">
+      <div className="relative my-6 px-4 lg:flex max-w-[1200px] mx-auto">
         <div>
-          <div>
-            <h2 className="text-3xl font-bold">About Us</h2>
+          <div className="">
+            <h2 className="text-3xl font-bold ">About Us</h2>
             <p className="mt-3  text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] pr-10">
               Prime Choice Care is a NDIS registered (National Disability
               Insurance Scheme) Provider operating all over greater Sydney
@@ -52,9 +54,9 @@ function Who() {
               <div className="border-[3px] border-orange-400 w-14 my-2"></div>
 
               <p className=" text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] mt-4 max-w-[400px]">
-                PrimeChoice Care provides personalised services for
-                independence and goal achievement, covering allied health,
-                disability support, NDIS services, home care, and labour hire.
+                PrimeChoice Care provides personalised services for independence
+                and goal achievement, covering allied health, disability
+                support, NDIS services, home care, and labour hire.
               </p>
             </div>
 

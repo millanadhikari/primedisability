@@ -9,7 +9,7 @@ import { PiHospital } from "react-icons/pi";
 
 function Services() {
   return (
-    <div className="bg-[#e4e1dc] text-[#3a474f] py-8">
+    <div className="bg-[#ffe8d9] text-[#3a474f] py-8">
       <div className="max-w-[1200px] mx-auto px-4 ">
         <h2 className="text-3xl md:text-3xl font-bold">Services</h2>
         <div className="lg:flex gap-6">
